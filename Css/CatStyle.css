@@ -1,0 +1,230 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color:  #e6e6e6;
+	font-family: 'Open Sans', sans-serif;
+}
+/*_______________________________________ContactMenu_______________________________________*/
+.CntcMenu{
+	width: 56px;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 10px;
+	position: fixed;
+	background-color: rgba(256, 256, 256, 0.7);
+	z-index: 2;
+}
+.CntcMenu img{
+	width: 48px;
+	height: 48px;
+	padding: 4px;
+	margin: 2px 0px;
+	/*border: 2px solid black*/
+}
+
+/*_______________________________________Sect_______________________________________*/
+.Title{
+	width: 85%;
+	height: 128px;
+	border-bottom: 2px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	/*background-image: url(../Img/Logo1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+.Title img{
+	height: 128px;
+	float: right;
+}
+.CatCont{
+	width: 85%;
+	margin: auto;
+	z-index: -1;
+}
+.CatSec{
+	width: 100%;
+	float: left;
+	transition: 0.5s;
+}
+.CatTitle{
+	background-color: #808080 ;
+	width: 25%;
+	height: 50px;
+	color: white;
+	text-align: center;
+	/*font-size: 2em;*/
+	margin-bottom: 15px;
+}
+.Item{
+	width: 28%;
+	height: 512px;
+	margin: 0px 15px 1% 0px;
+	padding: 1%;
+	background-color: #ffffff;
+	float: left;
+}
+.Item:hover, .Item1:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.Item1{
+	width: 90.5%;
+	height: 442px;
+	margin: 0px 15px 1% 0px;
+	padding: 1%;
+	background-color: #ffffff;
+	float: left;
+}
+.CatImg{
+	width: 100%;
+	height: 256px;
+	margin-bottom: 15px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*_______________________________________Imagenes catalogo_______________________________________*/
+#AscImg{
+	background-image: url(../Img/Cat/Hidraulic.jpg);
+	} 
+#AscImg1{
+	background-image: url(../Img/Cat/Traction.jpg);
+}
+#AscImg2{
+	height: 128px;
+	background-image: url(../Img/Cat/Frontal.jpg);
+}
+#AscImg3{
+	height: 128px;
+	background-image: url(../Img/Cat/Discap.jpeg);
+}
+#AscImg4{
+	height: 128px;
+	background-image: url(../Img/Cat/camillero.jpg);
+}
+#AscImg2, #AscImg3, #AscImg4{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+#AscImg5{
+	background-image: url(../Img/Cat/MontInd.jpg);
+}
+#AscImg6{
+	background-image: url(../Img/Cat/MontVeh.jpg);
+}
+/*#AscImg7, #AscImg8, #AscImg9, #AscImg10{
+	width: 50%;
+	height: 128px;
+	float: left;
+	
+}*/
+#AscImg7{
+	background-image: url(../Img/Cat/Est1.jpg);
+	margin-bottom: 0px;
+}
+#AscImg8{
+	background-image: url(../Img/Cat/Est2.jpg);
+	margin-bottom: 0px;
+}
+#AscImg9{
+	background-image: url(../Img/Cat/Est3.jpeg);
+}
+#AscImg10{
+	background-image: url(../Img/Cat/Est4.jpg);
+}
+#AscImg11{
+	background-image: url(../Img/Cat/Cubierta.jpg);
+}
+#AscImg12{
+	background-image: url(../Img/Cat/Mesanin.jpg);
+}
+#AscImg13{
+	background-image: url(../Img/Cat/Cerramiento.jpg);
+}
+#AscImg7, #AscImg8, #AscImg9, #AscImg10, #AscImg14, #AscImg15, #AscImg16, #AscImg17{
+	width: 25%;
+	height: 256px;
+	float: left;
+	
+}
+#AscImg14{
+	background-image: url(../Img/Cat/Cerr.jpg);
+}
+#AscImg15{
+	background-image: url(../Img/Cat/Esc.jpg);
+}
+#AscImg16{
+	background-image: url(../Img/Cat/Escal.jpg);
+}
+#AscImg17{
+	background-image: url(../Img/Cat/Puertas.jpg);
+}
+
+.CatText{
+	width: 100%;
+}
+.CatText h1{
+	width: 100%;
+	float: left;
+	font-size: 1.75em;
+	border-bottom: 2px solid black;
+}
+.CatText p{
+	text-align: justify;
+	font-size: 1.25em;
+}
+
+@media only screen and (max-width: 768px){
+	.CntcMenu{
+		width: 240px;
+		margin: 0px auto;
+		bottom: 5px;
+		left: 10px;
+	}
+	.CntcMenu img{
+		margin: auto;
+	}
+	.Title{
+		height: 64px;
+		margin-bottom: 10px;
+	}
+	.Title img{
+		height: 64px;
+	}
+	.CatTitle{
+		width: 64%;
+		height: 40px;
+		float: right;
+		font-size: 0.75em;
+	}
+	.CatText h1{
+		text-align: right;
+	}
+	.Item, .Item1{
+		width: 100%;
+		height: 512px;
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+	.CatTitle{
+		width: 64%;
+		height: 40px;
+		font-size: 0.75em;
+	}
+	.Item{
+		width: 45%;
+		height: 512px;
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (min-width: 769px){
+	.CntcMenu{
+		right: 10px;
+		margin-top: 150px;
+	}
+}
